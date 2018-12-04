@@ -1,82 +1,77 @@
- <!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset="utf-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Lab Template</title>
-    <meta name="description" content="Lab Template">
-	     
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
- 
-  </head>
+    <meta content="Lab Template" name="description">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet">
+    <link href="asset/css/style.css" rel="stylesheet" type="text/css">
+</head>
 
-  <body>
-    
-      <!-- Navigation
-      ================================================== --> 
-      <header>
-      
-        
-          <div class="navbar-header">
-             <a class="navbar-brand" href="#">LAB TEMPLATE</a>
-          </div>
-          
-          <nav class="navbar navbar-light bg-light">            
-            <a href="#"> <img src="asset/img/header/lab.png"> </a>
-            <a href="#"> <img src="asset/img/header/clock.png" ></a>
-            <a href="#"> <img src="asset/img/header/camera.png" ></a>
-            <a href="#"> <img src="asset/img/header/chat.png" ></a>
-          </nav>
-         
-      </header>   
-   
-            
-           
+<body>
+<!-- Navigation
+================================================== -->
+<header class="header header-sticky header-transparent">
+    <div class="container">
+        <div class="row">
 
-    <!-- Caroussel
-    ================================================== -->
-        <main>
-         <div class="container">
-
-         
-
-      
-
-    <!-- Corps de page 
-    ================================================== -->
-         </div>
-        </main>
-
-    <!-- Pied de page
-    ================================================== -->
-     <footer>
-       
-     </footer>
-
-    <!-- jQuery -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-      <!-- Javascript de Bootstrap -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-      <script>
-        // Scrollspy fluide
-        $(function () {
-          $('header a').on('click', function(e) {
-            e.preventDefault();
-            var hash = this.hash;
-            $('html, body').animate({
-              scrollTop: $(this.hash).offset().top
-            }, 1000, function(){
-              window.location.hash = hash;
-            });
-          });
-        });
-      </script>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler" data-target="#navbarNavAltMarkup" data-toggle="collapse"
+                        type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a href="#"> <img src="asset/img/header/lab.png"> </a>
+                        <a href="#"> <img src="asset/img/header/clock.png"></a>
+                        <a href="#"> <img src="asset/img/header/camera.png"></a>
+                        <a href="#"> <img src="asset/img/header/chat.png"></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </div>
-  </body>
+</header>
+
+
+<main role="main">
+    <div class="container">
+        <!-- Caroussel
+        ================================================== -->
+        <div class="row">
+            <p>ton caroussel</p>
+        </div>
+
+        <!-- Corps de page
+        ================================================== -->
+        <div class="row">
+            <p>ton corps de page</p>
+        </div>
+    </div>
+</main>
+
+<!-- Pied de page
+================================================== -->
+<footer class="container">
+    <p>coucou Henri ton footer sera ici</p>
+</footer>
+
+<!-- Javascript de Bootstrap -->
+<!-- conforme à la documentation https://getbootstrap.com/docs/4.1/getting-started/introduction/#js -->
+<script crossorigin="anonymous"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
 
 </html>
