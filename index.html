@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab Template</title>
+    <meta name="description" content="Lab Template">
+	     
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+ 
+  </head>
+
+  <body>
+    
+      <!-- Navigation
+      ================================================== --> 
+      <header>
+      
+        
+          <div class="navbar-header">
+             <a class="navbar-brand" href="#">LAB TEMPLATE</a>
+          </div>
+          
+          <nav class="navbar navbar-light bg-light">            
+            <a href="#"> <img src="asset/img/header/lab.png"> </a>
+            <a href="#"> <img src="asset/img/header/clock.png" ></a>
+            <a href="#"> <img src="asset/img/header/camera.png" ></a>
+            <a href="#"> <img src="asset/img/header/chat.png" ></a>
+          </nav>
+         
+      </header>   
+   
+            
+           
+
+    <!-- Caroussel
+    ================================================== -->
+        <main>
+         <div class="container">
+
+         
+
+      
+
+    <!-- Corps de page 
+    ================================================== -->
+         </div>
+        </main>
+
+    <!-- Pied de page
+    ================================================== -->
+     <footer>
+       
+     </footer>
+
+    <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <!-- Javascript de Bootstrap -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+      <script>
+        // Scrollspy fluide
+        $(function () {
+          $('header a').on('click', function(e) {
+            e.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(this.hash).offset().top
+            }, 1000, function(){
+              window.location.hash = hash;
+            });
+          });
+        });
+      </script>
+    </div>
+  </body>
+
+</html>
