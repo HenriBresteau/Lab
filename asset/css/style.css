@@ -1,12 +1,78 @@
-@font-face {
-    font-family: 'lato';
-    src: url('../font/lato.ttf');
-    font-weight: normal;
-    font-style: normal;
+nav {
+min-height: 101px;
+min-width: 100%;
+font-size: 25px;
+line-height: 25px;
+color: #ffffff;
+font-family: Helvetica;
 }
 
-#navbar {
-    width: 1162px;
-    height: 101px;
-    background-color: #333333;
+#carousel1{
+width: 100%;
+height: 515px;
+background-color: #cccccc;	
+}
+#carousel1 img {
+width: 100%;
+height: 550px;
+
+}
+.carousel-control-prev-icon {
+background-image: url('../img/content/left.png');
+}
+.carousel-control-next-icon {
+background-image: url('../img/content/right.png');
+}
+
+
+#carousel2 {
+width: 100%;
+height: 501px;
+background-color: #ff6666;
+padding-top: 15px;	
+}	
+
+#carousel2 img {
+width: 220px;
+height: 220px;
+border-radius: 110px;
+border: 10px solid #ff9999;
+margin-bottom: 30px;
+}
+
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #cc3333;
+}
+
+
+footer{
+width: 1140px;
+height: 300px;
+background-color: #333333;
+padding-top: 20px;
+}
+
+footer h2 {
+font-size: 21px;
+line-height: 33px;
+color: #666666;
+font-family: Helvetica;
+text-align: center;
+padding-bottom: 15px;
+}
+footer p{
+font-size: 17px;
+line-height: 21px;
+color: #666666;
+font-family: Helvetica;
+text-align: center;
+padding-top: 10px;
+}
+
+footer a {
+text-decoration: none; 
+color: #333333; 
 }
